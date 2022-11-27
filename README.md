@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Embutidos Siega Verde's Website
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Powered%20by%20Next.js-%23000?style=for-the-badge&logo=nextdotjs)](https://github.com/vercel/next.js)
+[![Tailwind CSS](https://img.shields.io/badge/Styled%20with%20Tailwind%20CSS-%23FFF?style=for-the-badge&logo=tailwindcss)](https://github.com/tailwindlabs/tailwindcss)
+![GitHub](https://img.shields.io/github/license/Athenyx04/embutidos-siega-verde?style=for-the-badge)
 
-First, run the development server:
+This is a website made for the Spanish based company Embutidos Siega Verde, located in Villar de la
+Yegua (Salamanca). The actual webpage is powered by Joomla, and can be seen
+[here](http://www.embutidossiegaverde.com). The goal is to update the page from working with
+Joomla/PHP to Next.js/Javascript, while retaining the same style.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Packages are managed using Yarn
+- The project is made on Next.js and deployed to Vercel
+- The styles used are made with the Tailwind CSS framework
+- The linter options are set to follow AirBnB guidelines
+- Commitizen is used for following the Conventional Commits specification
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Getting started with development
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Use `yarn next dev` to launch the development server. Open
+[http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Components, pages and directories
 
-## Learn More
+All images are contained under the `public/images` directory. The only page to date is the index
+webpage. It contains the only component to date too, the Slideshow of images.
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Manuel Calvo Martín ([@Athenyx04](https://github.com/Athenyx04))
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+GNU GPLv3.0
